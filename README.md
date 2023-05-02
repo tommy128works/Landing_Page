@@ -4,3 +4,5 @@ This cat themed landing page was created as a learning exercise for CSS Flexbox.
 
 This is a guided project by The Odin Project (https://www.theodinproject.com/)
 Reference link: https://www.theodinproject.com/lessons/foundations-landing-page#viewing-your-project-on-the-web
+
+This project is licensed under GNU GPLv3.
