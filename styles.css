@@ -28,8 +28,43 @@
     flex: 1;
 }
 
-.right-content img {
-    height: 350px;
-    width: auto;
+#main-image {
+    height: auto;
+    width: 50vw;
     justify-content: center;
 }
+
+#gallery-title {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.gallery-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-image img {
+    height: auto;
+    width: 200px;
+}
+
+.gallery-image span {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
