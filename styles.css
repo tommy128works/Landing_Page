@@ -68,3 +68,10 @@
     width: 50%;
 }
 
+#quote {
+    text-align: center;
+}
+
+#quotee {
+    text-align: right;
+}
