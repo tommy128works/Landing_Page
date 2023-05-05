@@ -31,6 +31,7 @@
     padding-right: 10vw;
     padding-top: 50px;
     padding-bottom: 50px;
+    gap: 20px;
 }
 
 .left-content {
@@ -99,9 +100,16 @@
     text-align: center;
 }
 
-.gallery-image img {
+.gallery-image > img {
     height: auto;
     width: 200px;
+    border-radius: 20px;
+    border: 5px solid #3882F6;
+    margin-bottom: 5px;
+}
+
+.gallery-image > div {
+    color: rgb(83, 81, 81);
 }
 
 .center {
@@ -130,9 +138,17 @@
     text-align: right;
 }
 
-.sign-up {
+.sign-up-container {
     display: flex;
     background-color: #3882F6;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #sign-up-button {
@@ -170,6 +186,6 @@ body {
     color: white;
 }
 
-.footer p {
+.footer > p {
     text-align: center;
 }
