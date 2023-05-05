@@ -4,6 +4,10 @@
 
 .header-left {
     flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    text-indent: 10vw;
 }
 
 .header-right {
@@ -13,11 +17,18 @@
 
 .header-links {
     flex: 1;
+    display: flex;
     justify-content: center;
+}
+
+.header-container, .main-content, .footer {
+    background-color: #1F2937;
 }
 
 .main-content {
     display: flex;
+    padding-left: 10vw;
+    padding-top: 10vw;
 }
 
 .left-content {
@@ -26,6 +37,17 @@
 
 .right-content {
     flex: 1;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#secondary-text, .header-links {
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 #main-image {
@@ -89,6 +111,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    height: 50px;
+    color: white;
 }
 
 .footer p {
