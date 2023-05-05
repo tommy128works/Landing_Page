@@ -75,3 +75,18 @@
 #quotee {
     text-align: right;
 }
+
+.sign-up {
+    display: flex;
+}
+
+.sign-up-left {
+    flex: 2;
+}
+
+.sign-up-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
